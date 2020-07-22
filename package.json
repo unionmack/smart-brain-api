@@ -4,7 +4,7 @@
   "description": "api for facial recognition software",
   "main": "script.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "serve -s build"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "express": "^4.17.1",
     "knex": "^0.21.2",
     "nodemon": "^2.0.4",
-    "pg": "^8.3.0"
+    "pg": "^8.3.0",
+    "serve": "^11.3.2"
   }
 }
